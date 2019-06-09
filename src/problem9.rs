@@ -11,6 +11,9 @@ pub fn solve() {
             res = a * b * c;
             break;
         }
-    };
-    println!("Le produit des éléments du triplet pythagoriciene est dont la somme est 1000 est {}", res);
+    }
+    println!(
+        "Le produit des éléments du triplet pythagoriciene est dont la somme est 1000 est {}",
+        res
+    );
 }
