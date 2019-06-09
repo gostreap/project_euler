@@ -9,7 +9,7 @@ pub fn solve() {
 
 // https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 fn sieves_of_eratosthenes(n: u64) -> u64 {
-    let mut primes = Vec::with_capacity((n+1) as usize); //number from 2 to n
+    let mut primes = Vec::with_capacity((n + 1) as usize); //number from 2 to n
 
     for _ in 0..n + 1 {
         primes.push(true);
